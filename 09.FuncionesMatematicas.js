@@ -6,8 +6,8 @@
 
 //potencias 
 //pow(base,exponente)
-console.log(Math.pow(2,3))
-
+//console.log(Math.pow(2,3))
+//console.log(Math.pow(2,1/3))
 //raiz cuadrada de un numero
 //sqrt(num)
 //console.log(Math.sqrt(4))
@@ -18,9 +18,11 @@ console.log(Math.pow(2,3))
 
 //Numero Aleatorio 
 //desde 0 hasta numero que le digamos en este caso 10
+//console.log(Math.round(Math.random()*100))
 //console.log(Math.round(Math.random()*10))
 //Entre una horquilla de numeros
 //console.log(Math.round(Math.random()*(10-5)+5))
+
 
 //Si el numero es positivo o negativo 
 //si nos da 1 es positivo y si nos da -1 negativo
@@ -31,4 +33,5 @@ console.log(Math.pow(2,3))
 
 //Redondea hacia el entero inferior 
 //console.log(Math.floor(8.9))
-
+let num = 2.353423
+console.log(num.toFixed(2))
