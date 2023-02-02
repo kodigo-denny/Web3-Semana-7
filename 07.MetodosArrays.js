@@ -60,13 +60,13 @@ const verduras=['lechuga',
  })
 */
 //FOREACH:Por cada elemento nos recorre array 
-/*
+
  frutas.forEach((fruta, index)=>{
      //if(fruta.length>5){
          console.log(fruta, index)
      //}
  })
- */
+ 
 
 //INCLUDES:Nos da true o false en función si 
 //existe ese elemento del array 
